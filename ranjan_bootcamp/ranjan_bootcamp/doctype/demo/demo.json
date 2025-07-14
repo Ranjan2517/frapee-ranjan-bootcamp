@@ -8,7 +8,8 @@
   "fisrtname",
   "gender",
   "column_break_dunu",
-  "lastname"
+  "lastname",
+  "date"
  ],
  "fields": [
   {
@@ -34,12 +35,18 @@
    "fieldname": "lastname",
    "fieldtype": "Data",
    "label": "LastName"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-14 11:48:21.401922",
+ "modified": "2025-07-14 12:00:34.447064",
  "modified_by": "Administrator",
  "module": "Ranjan Bootcamp",
  "name": "Demo",
